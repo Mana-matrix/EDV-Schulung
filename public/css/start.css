@@ -1,0 +1,101 @@
+#galleryContens{
+	border-radius:10px;
+	
+	width:450px;
+	height:400px;
+	margin:auto auto;
+
+	box-shadow:  -2px 2px 5px grey;
+
+}
+
+
+
+#mCont{
+height:420px;
+}
+
+#mainContens{
+	
+	font-family: 'Rubik', sans-serif;
+	font-weight:bold;
+	text-align:right;
+	font-size:14px;
+float:left;
+margin-left:3%;
+	min-width:200px;
+	max-width:450px;
+		
+		clear: both;
+		border-radius:5px;
+		
+		color:#0c4978;
+		
+		
+}
+#gLine{
+	width:1px;
+	height:400px;
+	float:left;
+	border:3px dashed blue;
+}
+.Gbox50{
+	float:left;
+	width:49%;
+	height:100%;
+	overflow:hidden;
+}
+.abstand{
+display: inline-block;
+	height:45px;
+	width:100%;
+}
+#TXheadline{
+color:#418ec9;
+
+text-decoration: underline;
+text-align:center;
+font-weight:bold;
+
+}
+#about{
+text-align:justify;
+
+
+
+}
+.mainText{
+float:right;
+padding:5px;
+border-radius:5px;
+
+line-height: 25px;
+background-color:rgba(255,255,255,0.5);
+box-shadow:  -2px 2px 5px grey;
+}
+.angebote{
+	width:48%;
+	border:3px dotted #418ec9;
+	border-radius:5px;
+	color:#418ec9;
+	text-align:center;
+	float:left;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+    user-select: none;
+	font-size:15px;
+}
+#angebot2{
+float:right;
+}
+#Firmen{
+ /*display: inline-block;*/
+
+ transform: scale(1);
+margin: auto auto;
+height:70px;
+padding-left:1%;
+
+}

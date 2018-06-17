@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+		<title>contact</title>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="js/contact.js"></script>
+		<link rel="stylesheet" href="css/contact.css">
+			<script>window.onpopstate = parent.checkBt();</script>
+			<style>
+			@import 'https://fonts.googleapis.com/css?family=Rubik';
+			@import 'https://fonts.googleapis.com/css?family=Raleway';
+			<!--ul {list-style-image:url(img/ico.png)};-->
+		</style>
+		
+		
+	</head>
+	
+	
+	<body >
+		
+						<div id="cont1">
+						<div id="contactAll"><div id="contact1">
+						<div id="conText">
+							Sie   brauchen  weitere  Informationen ?
+							<br>Sie  möchten mich als  Trainer  für Ihre  Schulung ?? 
+							<br>Dann  freu ich  mich  auf  Ihre  Post !
+							<br>ich  werde  mich  schnellstmöglich bei Ihnen melden !
+						</div>
+							<form method="POST" action="#">
+								<div><div><br><br>Name:</div>
+								<div id="validName"></div></div>
+								<div><label form="vorname">
+									<input onfocus="Focus('vorname')" onblur="valid('vorname')" class="eingabeFeld" type = "text" name="Vorname" placeholder = "Vorname"  id="vorname" >
+								
+								</label></div>
+							<div id="validMail">eMail:</div>
+							 <div> <label form="email">
+									
+									<input id="MAIL" onfocus="Focus('MAIL')" onblur="valid('MAIL')" placeholder = "email"></input>
+							</label></div><!--value="vorname"--> 
+							<!--  <div><select> name = "betreff" 
+							<option value = "anfrage">dies</option>
+							<option selected value = "das">das</option>
+							</select>
+							</div>-->
+							<div>Ihre Nachricht</div>
+							  <div class="textfeld"><textarea onfocus="Focus('Textfeld')" onblur = "valid('Textfeld')" name="nachricht" placeholder= "ihre Nachricht" id="Textfeld"></textarea>
+							</div>
+							<div>
+							
+							
+							<button class="button"type="submit">Appschicken</button>
+							</div>
+							</form>
+								</div> 
+						</div> 
+					</div>
+	</body>
+
+</html>

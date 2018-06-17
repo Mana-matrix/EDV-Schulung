@@ -1,0 +1,25 @@
+/*
+@-webkit-keyframes-FadeFrameOut{
+  0% {opacity:1}
+  100% {opacity:0;visible:hidden;}
+}*/
+@keyframes FadeFrameOut{
+  0% {opacity:1}
+  100% {opacity:0;visible:hidden;}
+}
+
+/*
+@-webkit-keyframes-FadeFrameIn{
+  0% {opacity:0;}
+  100% {opacity:1;}
+}*/
+@keyframes FadeFrameIn{
+  0% {opacity:0;}
+  100% {opacity:1;transform: scale(1);}
+}
+.FadeFrameIn{
+  animation: FadeFrameIn 0.1s ease-out;
+}
+.FadeFrameOut{
+  animation: FadeFrameOut 0.1s ease-out;
+}

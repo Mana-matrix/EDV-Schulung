@@ -1,0 +1,126 @@
+.btnTopOut{
+	clear:left;
+	padding-left:3px;
+	margin:auto;
+	height:50px;
+	padding-top:10px;
+	font-family: 'Raleway', sans-serif;
+
+
+}
+.btLine{
+	/*margin-top:10px;
+	border-bottom:2px solid #8E0000;
+	border-image: url(../img/border.png) 30;*/
+}
+.btText{
+margin-left:10px;
+font-size:15px;
+}
+
+.btnTopInner{
+	color:#0c4978;
+	border-radius:5px;
+	font-weight:bold;
+		cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+    user-select: none;
+}
+
+@keyframes switchBevel_in{
+	0%{
+		color:#0c4978;
+	}
+	100%{
+		box-shadow:-1px 1px 1px #418ec9;
+		background-color:rgba(255, 255,255, 0.25);
+		color:#418ec9;
+	}
+}
+
+@keyframes switchBevel_out{
+	0%{		
+		box-shadow:-1px 1px 1px #418ec9;
+		background-color:rgba(255, 255,255, 0.25);
+		color:#418ec9;
+	}
+	100%{
+		color:#0c4978;
+	}
+}
+.bevel_in{
+	animation: switchBevel_in 0.2s ease-out;
+	-webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+    animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+.bevel_out{
+	animation: switchBevel_out 0.2s ease-out;
+	-webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+    animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+.bt_in{
+	animation: btn_in 0.15s ease-out;
+	-webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+    animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+.bt_out{
+	animation: btn_out 0.05s ease-out;
+	-webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+    animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+@keyframes btn_in{
+	0%{
+		transform: scale(1);
+		color:#418ec9;
+		background-color:rgba(255, 255,255, 0.3);
+	}
+	100%{
+		transform: scale(1.1);
+		color:#418ec9;
+		box-shadow:-2px 2px 3px;
+		margin-left: 60px;
+		margin-top: -10px;
+		box-shadow:-2px 2px 3px grey;
+		background-color:rgba(255, 255,255, 0.5);
+	}
+}
+
+@keyframes btn_out{
+	0%{	
+		transform: scale(1.1);
+		color:#418ec9;
+		box-shadow:-2px 2px 3px;
+		margin-left: 60px;
+		margin-top: -10px;
+		background-color:rgba(255, 255,255, 0.5);
+	}
+	100%{
+		transform: scale(1);
+		color:#0c4978;
+	}
+}
+
+.changeLine{
+	animation: switchLine 0.25s ease-out;
+	-webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+    animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+.changeBack{
+	animation: switchLineRev 0.25s ease-out;
+	-webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+    animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
